@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+<img width="1440" height="327" alt="Screenshot 2025-12-19 at 14 37 15" src="https://github.com/user-attachments/assets/16b4206f-e75d-4b4c-a015-83e6b7d09aad" />
+<img width="1440" height="340" alt="Screenshot 2025-12-19 at 14 40 14" src="https://github.com/user-attachments/assets/3f09569a-f655-4c88-b383-68c8e51d8615" />
+<img width="1440" height="900" alt="Screenshot 2025-12-19 at 14 49 07" src="https://github.com/user-attachments/assets/5768c476-c0a3-4902-b07e-48a93a06fb78" />
+<img width="1440" height="900" alt="Screenshot 2025-12-19 at 14 49 15" src="https://github.com/user-attachments/assets/dda43310-5530-4df2-8ec7-ff3bfe211c87" />
+<img width="1440" height="293" alt="Screenshot 2025-12-19 at 14 50 52" src="https://github.com/user-attachments/assets/0c2fb58f-1815-42d6-97e6-48231c2a3a70" />
+<img width="1440" height="900" alt="Screenshot 2025-12-19 at 14 52 19" src="https://github.com/user-attachments/assets/aeffd4ce-5bd1-4e19-850a-87c4a1b433c5" />
+<img width="1440" height="900" alt="Screenshot 2025-12-19 at 14 58 37" src="https://github.com/user-attachments/assets/37d216c2-0567-474d-8e28-536a1512ac4e" />
+<img width="1077" height="586" alt="Screenshot 2025-12-19 at 18 22 02" src="https://github.com/user-attachments/assets/2b975b4b-68b7-4ae9-8eae-594ee6bba51e" />
