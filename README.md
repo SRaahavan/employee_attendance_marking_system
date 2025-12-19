@@ -1,19 +1,123 @@
 # employee_attendance
 
-A new Flutter project.
+# Employee Attendance Marking System
 
-## Getting Started
+A Flutter-based mobile application for managing employee attendance with real-time Firebase integration. This application provides a simple yet effective solution for organizations to register employees and track their daily attendance.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+### Employee Registration Module
+- **Add New Employees**: Intuitive form to register employees in the system
+- **Comprehensive Data Capture**: Collects Employee Name, Employee ID, Department, and Contact Number
+- **Form Validation**: Ensures all required fields are properly filled before submission
+- **Real-time Feedback**: Displays success and error messages for better user experience
+- **Cloud Storage**: All employee data securely stored in Firebase Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Attendance Marking Module
+- **Employee List Display**: View all registered employees in an organized list
+- **Smart Search**: Quickly find employees by name using the search/filter functionality
+- **Easy Attendance Marking**: Mark attendance with simple checkbox or toggle controls
+- **Date Tracking**: Automatically records the date for each attendance entry
+- **Visual Indicators**: Clear UI showing which employees have been marked present
+- **Persistent Storage**: All attendance records saved to Firebase Firestore in real-time
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technology Stack
+
+- **Framework**: Flutter (Latest Stable Version)
+- **Database**: Firebase Firestore
+- **State Management**: [Mention your state management solution - Provider/Riverpod/Bloc/GetX]
+- **Platform**: Android & iOS compatible
+
+## Prerequisites
+
+Before running this application, ensure you have the following installed:
+
+- Flutter SDK (3.0 or higher)
+- Dart SDK
+- Android Studio / VS Code with Flutter extensions
+- Firebase account with a configured project
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/employee-attendance-system.git
+cd employee-attendance-system
+```
+
+### 2. Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Firebase Configuration
+
+1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Enable Firestore Database in your Firebase project
+3. Download the configuration files:
+   - For Android: Download `google-services.json` and place it in `android/app/`
+   - For iOS: Download `GoogleService-Info.plist` and place it in `ios/Runner/`
+4. Update Firebase configuration in your project
+
+### 4. Run the Application
+
+```bash
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+├── models/          # Data models for Employee and Attendance
+├── screens/         # UI screens (Registration, Attendance)
+├── services/        # Firebase service classes
+├── widgets/         # Reusable UI components
+└── main.dart        # Application entry point
+```
+
+## Usage
+
+### Registering an Employee
+
+1. Navigate to the Employee Registration screen
+2. Fill in all required fields (Name, ID, Department, Contact)
+3. Tap the Submit button
+4. Confirmation message will appear upon successful registration
+
+### Marking Attendance
+
+1. Open the Attendance Marking screen
+2. Use the search bar to filter employees if needed
+3. Toggle the checkbox/switch next to each employee's name to mark them present
+4. Attendance is automatically saved with the current date
+
+## Code Quality Features
+
+- **Clean Architecture**: Well-organized code structure following Flutter best practices
+- **Error Handling**: Comprehensive error handling throughout the application
+- **Code Comments**: Detailed comments explaining complex logic
+- **Validation**: Input validation on all forms
+- **Responsive UI**: Adaptive layout for different screen sizes
+
+## Future Enhancements
+
+- Employee profile editing and deletion
+- Attendance history and reports
+- Export attendance data to Excel/PDF
+- Push notifications for attendance reminders
+- Biometric authentication
+- Admin dashboard with analytics
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Acknowledgments
+
+This project was developed as part of a Flutter Developer Assessment Task, demonstrating proficiency in Flutter development, Firebase integration, and mobile app architecture.
 
 <img width="1440" height="327" alt="Screenshot 2025-12-19 at 14 37 15" src="https://github.com/user-attachments/assets/16b4206f-e75d-4b4c-a015-83e6b7d09aad" />
 <img width="1440" height="340" alt="Screenshot 2025-12-19 at 14 40 14" src="https://github.com/user-attachments/assets/3f09569a-f655-4c88-b383-68c8e51d8615" />
